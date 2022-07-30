@@ -1,0 +1,27 @@
+/*Medium Screens */
+@media (max-width: 1100px) {
+  .navbar .nav-wrapper {
+    width: 90%;
+  }
+  .navbar .nav-wrapper .search-form {
+    display: none;
+  }
+  .right-col {
+    display: none;
+  }
+  .main .wrapper {
+    width: 90%;
+    display: block;
+  }
+}
+
+/*Small Screens */
+@media (max-width: 500px) {
+  .nav-items .icon {
+    margin: 0 5px !important;
+  }
+  .post .post-image {
+    height: 300px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
